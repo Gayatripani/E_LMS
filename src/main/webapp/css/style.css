@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+html{
+	min-height:100%;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(wheat,purple);
+
+}
+	h1{
+	background-color:Black;
+	background: linear-gradient(to top left,cyan,blue);
+	text-align:center;
+	color:white;
+	
+  	
+	}
+	.col-md-6{
+	background-color:gray;
+	border-style: ridge;
+	display: flex;
+  	flex-direction: right;
+  	margin-bottom:auto;
+  	
+	}
+	.admin{
+	padding:40px;
+	align-content:center;
+	
+	}
+	.librarian{
+	padding:40px;
+		flex-direction: bottom;
+	}
+	#btn{
+	background-color:olive;
+	background: linear-gradient(to top left,olive,cyan);
+	}
+	.table{
+	padding:40px;
+	background-color:gray;
+	display: flex;
+  	align-content:center;
+  	margin-bottom:auto;
+  	margin-top:auto;
+  	margin-left:auto;
+  	margin-right:auto;
+	}
